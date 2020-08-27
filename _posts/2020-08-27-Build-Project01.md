@@ -57,6 +57,7 @@ Thankfully, we can use dimensionality reduction techniques to reduce the dimensi
 ### Interpreting the Clusters
 To better interpret the differences within the clusters, I created a bar plot of the means of each variable for each cluster:
 
+![cluster_means](/assets/img/cluster_means.png)
 ![cluster summaries](/assets/img/cluster_summaries.JPG)
 
 
