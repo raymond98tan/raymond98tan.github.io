@@ -52,13 +52,13 @@ Since the dataset contains 7 features, we’re dealing with high dimensional dat
 
 Thankfully, we can use dimensionality reduction techniques to reduce the dimensions of our data, making it easier to visualise while retaining most of the information held within the data. I used a dimensionality reduction algorithm, Principal component analysis (PCA) to visualize the clusters.
 
-![PCA plot of clusters](/assets/img/clusters.JPG)
+![PCA plot of clusters](/assets/img/clusters.JPG){: .mx-auto.d-block :}
 
 ### Interpreting the Clusters
 To better interpret the differences within the clusters, I created a bar plot of the means of each variable for each cluster:
 
-![cluster_means](/assets/img/cluster_means.png)
-![cluster summaries](/assets/img/cluster_summaries.JPG)
+![cluster_means](/assets/img/cluster_means.png){: .mx-auto.d-block :}
+![cluster summaries](/assets/img/cluster_summaries.JPG){: .mx-auto.d-block :}
 
 Looking at the graph, we see that clusters 0 and 2 both have low valence, or low positivity in the songs. They're very similar in their summary statistics, however, cluster 0 is slightly more energetic and slightly louder. The main difference between cluster 0 and cluster 2 though, is that cluster 0 has little acoustics, whereas cluster 2 has high acoustics.
 
