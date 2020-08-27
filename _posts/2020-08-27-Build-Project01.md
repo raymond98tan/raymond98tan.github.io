@@ -30,7 +30,7 @@ These definitions were taken from the [Spotipy API](https://developer.spotify.co
 ### Normalizing the Data
 Before inputing the data into an algorithm, I needed to make sure the data was normalized. All of the data was scaled, ranging from 1-100 in value except dB which ranged from -60 to 0. In order to scale the data I ran it through this function using the sklearn library:
 
-![Normalization Function](/blob/master/_posts/normalization.JPG)
+![Normalization Function](/_posts/normalization.JPG)
 
 ### Clustering the songs
 
