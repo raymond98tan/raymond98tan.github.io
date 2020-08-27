@@ -30,7 +30,7 @@ These definitions were taken from the [Spotipy API](https://developer.spotify.co
 ### Normalizing the Data
 Before inputing the data into an algorithm, I needed to make sure the data was normalized. All of the data was scaled, ranging from 1-100 in value except dB which ranged from -60 to 0. In order to scale the data I ran it through this function using the sklearn library:
 
-![Normalization Function](/_posts/normalization.JPG)
+![Normalization Function](/assets/img/normalization.JPG)
 
 After scaling, every variable ranged from a value of 0.0-1.0.
 
@@ -42,7 +42,7 @@ There are many ways to do this; one of methods is using an elbow plot. The elbow
 
 This is the result putting our data into the elbow plot:
 
-![Elbow Plot](/_posts/elbowplot.JPG)
+![Elbow Plot](/assets/img/elbowplot.JPG){: .mx-auto.d-block :}
 
 From looking at the elbow plot, the elbow is not very obvious. However, we can see that the optimal number of clusters to use is 4 since after a k of 4, the sum of squared distances begin to level out.
 
