@@ -41,7 +41,7 @@ Now that the data is pre-processed, the next step is to cluster the songs and id
 There are many ways to do this; one of methods is using an elbow plot. The elbow method runs k-means clustering on the dataset for a range of values for k and then for each value of k, computes an average score for all clusters. By default, the sum of square distances from each point to its assigned center is computed. Using this, we find a visual "elbow," in the plot, which is the optimal number of clusters to use.
 
 This is the result putting our data into the elbow plot:
-![Normalization Function](_posts/elbowplot.JPG)
+![Elbow Plot](/elbowplot.JPG)
 
 From looking at the elbow plot, the elbow is not very obvious. However, we can see that the optimal number of clusters to use is 4 since after a k of 4, the sum of squared distances begin to level out.
 
