@@ -32,8 +32,18 @@ Before inputing the data into an algorithm, I needed to make sure the data was n
 
 ![Normalization Function](/_posts/normalization.JPG)
 
-### Clustering the songs
+After scaling, every variable ranged from a value of 0.0-1.0.
 
+### Clustering the songs
+Now that the data is pre-processed, the next step is to cluster the songs and identify the mood within each cluster. I decided to use the K-Means Clustering Algorithm, which is an unsupervised learning algorithm which groups similar data points into a predefined number of groups to discover underlying patterns.
+
+**How do we decide on the optimal number of clusters to split the data into?**
+There are many ways to do this; one of methods is using an elbow plot. The elbow method runs k-means clustering on the dataset for a range of values for k and then for each value of k, computes an average score for all clusters. By default, the sum of square distances from each point to its assigned center is computed. Using this, we find a visual "elbow," in the plot, which is the optimal number of clusters to use.
+
+This is the result putting our data into the elbow plot:
+![Normalization Function](_posts/elbowplot.JPG)
+
+From looking at the elbow plot, the elbow is not very obvious. However, we can see that the optimal number of clusters to use is 4 since after a k of 4, the sum of squared distances begin to level out.
 
 ### Visualizing the Clusters
 
