@@ -60,4 +60,10 @@ To better interpret the differences within the clusters, I created a bar plot of
 ![cluster_means](/assets/img/cluster_means.png)
 ![cluster summaries](/assets/img/cluster_summaries.JPG)
 
+Looking at the graph, we see that clusters 0 and 2 both have low valence, or low positivity in the songs. They're very similar in their summary statistics, however, cluster 0 is slightly more energetic and slightly louder. The main difference between cluster 0 and cluster 2 though, is that cluster 0 has little acoustics, whereas cluster 2 has high acoustics.
 
+In contrast, clusters 1 and 3 have high valences, or high positivity. However, cluster 3 has .24 more energy(.41 vs .65) and low acoustics(.15).
+
+All of the clusters seem to have relatively similar levels of liveness and speechiness.
+
+Taking a look at the songs within the clusters, 
