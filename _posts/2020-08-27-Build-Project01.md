@@ -71,6 +71,8 @@ The energy levels of the clusters go from .3, .4, .5, and .6(not in the respecti
 4. Khai - Do you go up (**Un-Genred**)
 5. Pink Sweat$ - Honesty (**Alt r&b**)
 
+![cluster0 means](/assets/img/cluster0_means.JPG)
+
 Taking a look at the songs within the clusters, cluster 0's songs are a lot slower, less energetic, and has high acoustics. Some of the songs from my lofi playlist ended up in this cluster as well. Therefore, I'll identify this playlist cluster as "Chill."
 
 #### Cluster 1
@@ -79,6 +81,8 @@ Taking a look at the songs within the clusters, cluster 0's songs are a lot slow
 3. A Boogie Wit da Hoodie - Drowning (**Melodic Rap**)
 4. Jay Park - Yacht (**K-pop**)
 5. Doja Cat - Bottom Bitch (**Indie**)
+
+![cluster1 means](/assets/img/cluster1_means.JPG)
 
 Looking at cluster 1, the songs are a lot more high energy and very danceable. Therefore, I'll identify this playlist cluster as "Bump."
 
@@ -89,6 +93,8 @@ Looking at cluster 1, the songs are a lot more high energy and very danceable. T
 4. Col3trane - Heroine (**Alt r&b**)
 5. Russ - Summer at 7 (**Hawaiian Hip Hop**)
 
+![cluster2 means](/assets/img/cluster2_means.JPG)
+
 Looking at cluster 2, the songs are higher positivity, higher acoustics, and groovy(for a lack of a better work), therefore, I'll identify this playlist cluster as "rnb and hip hop"
 
 #### Cluster 3
@@ -97,3 +103,5 @@ Looking at cluster 2, the songs are higher positivity, higher acoustics, and gro
 3. Tyler, The Creator - EARFQUAKE (**Hip Hop**)
 4. Yo Trane - Moonlight (**Alt r&b**)
 5. keshi - like i need u (**Indie r&b**)
+
+![cluster3 means](/assets/img/cluster3_means.JPG)
