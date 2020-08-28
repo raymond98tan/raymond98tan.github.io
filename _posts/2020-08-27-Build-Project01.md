@@ -8,7 +8,7 @@ share-img: /assets/img/path.jpg
 tags: [project, music, spotify]
 ---
 
-**Are we able to infer the mood of a song?**
+**Are we able to organize a playlist based on the moods of songs?**
 
 In this blog, I outline the steps I conducted in order to answer this question through the use of data clustering.
 
