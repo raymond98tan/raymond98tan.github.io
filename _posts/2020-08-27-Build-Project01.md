@@ -64,4 +64,38 @@ In contrast, clusters 1 and 2 have high valences(.65 and .61), or high positivit
 
 The energy levels of the clusters go from .3, .4, .5, and .6(not in the respective order of the clustering), which raises suspicion that that may be an area of how they are clustered.
 
-Taking a look at the songs within the clusters, 
+#### Cluster 0
+1. Frank Ocean - Nikes (Alt r&b)
+2. Daniel Caesar - Who Hurt You? (Contemporary r&b)
+3. Phora - Faithful (Deep pop r&b)
+4. Khai - Do you go up
+5. Pink Sweat$ - Honesty (Alt r&b)
+
+Taking a look at the songs within the clusters, cluster 0's songs are a lot slower, less energetic, and has high acoustics. Some of the songs from my lofi playlist ended up in this cluster as well. Therefore, I'll identify this playlist cluster as "Chill."
+
+![Cluster 0]()
+
+#### Cluster 1
+1. Biz Markie - Just a Friend (Hip Hop)
+2. Mario - Let me love you (Dance Pop)
+3. A Boogie Wit da Hoodie - Drowning (Melodic Rap)
+4. Jay Park - Yacht (K-pop)
+5. Doja Cat - Bottom Bitch (Indie)
+
+Looking at cluster 1, the songs are a lot more high energy and very danceable. Therefore, I'll identify this playlist cluster as "Bump."
+
+#### Cluster 2
+1. Lucky Daye - Buying Time (Alt r&b)
+2. BROCKHAMPTON - FACE (Boy band)
+3. J. Cole - Love Yourz (Conscious Hip Hop)
+4. Col3trane - Heroine (Alt r&b)
+5. Russ - Summer at 7 (Hawaiian Hip Hop)
+
+Looking at cluster 2, the songs are higher positivity, higher acoustics, and groovy(for a lack of a better work), therefore, I'll identify this playlist cluster as "rnb and hip hop"
+
+#### Cluster 3
+1. SZA - Love Galore (pop)
+2. XXXTENTACION - Save Me (emo rap)
+3. Tyler, The Creator - EARFQUAKE (hip hop)
+4. Yo Trane - Moonlight (Alt r&b)
+5. keshi - like i need u (Indie r&b)
