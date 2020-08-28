@@ -42,7 +42,7 @@ From looking at the elbow plot, the elbow is not very obvious. However, we can s
 
 ### Visualizing the Clusters
 With the number of clusters (k=4) decided, the next step was to explore the clusters formed by the K-means and identify the moods they may represent!
-Since the dataset contains 7 features, we’re dealing with high dimensional data, which means it’s pretty hard to imagine, let alone plot.
+Since the dataset contains 5 features, we’re dealing with high dimensional data, which means it’s pretty hard to imagine, let alone plot.
 
 Thankfully, we can use dimensionality reduction techniques to reduce the dimensions of our data, making it easier to visualise while retaining most of the information held within the data. I used a dimensionality reduction algorithm, Principal component analysis (PCA) to visualize the clusters.
 
