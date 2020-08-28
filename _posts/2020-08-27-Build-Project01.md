@@ -26,11 +26,7 @@ The variables I used to detect mood were:
 These definitions were taken from the [Spotipy API](https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/) which organizeyourmustic uses to gather song data.
 
 ### Normalizing the Data
-Before inputing the data into an algorithm, I needed to make sure the data was normalized. All of the data was scaled, ranging from 1-100 in value except dB which ranged from -60 to 0. In order to scale the data I ran it through this function using the sklearn library:
-
-![Normalization Function](/assets/img/normalization.JPG)
-
-After scaling, every variable ranged from a value of 0.0-1.0.
+Before inputing the data into an algorithm, I needed to make sure the data was normalized. All of the data was scaled, ranging from 1-100 in value except dB which ranged from -60 to 0. In order to scale the data I ran it through this function using the sklearn library. After scaling, every variable ranged from a value of 0.0-1.0.
 
 ### Clustering the songs
 Now that the data is pre-processed, the next step is to cluster the songs and identify the mood within each cluster. I decided to use the K-Means Clustering Algorithm, which is an unsupervised learning algorithm which groups similar data points into a predefined number of groups to discover underlying patterns.
