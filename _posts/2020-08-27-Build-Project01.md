@@ -64,6 +64,9 @@ In contrast, clusters 1 and 2 have high valences(.65 and .61), or high positivit
 
 The energy levels of the clusters go from .3, .4, .5, and .6(not in the respective order of the clustering), which raises suspicion that that may be an area of how they are clustered.
 
+### Identifying the Moods
+Now that we've interpreted some of the differences within the clusters, we're able to assign a mood to each cluster by looking at the songs within them and identifying the key emotions associated with the majority of songs in a particular cluster.
+
 #### Cluster 0
 1. Frank Ocean - Nikes (**Alt r&b**)
 2. Daniel Caesar - Who Hurt You? (**Contemporary r&b**)
@@ -95,7 +98,7 @@ Looking at cluster 1, the songs are a lot more high energy and very danceable. T
 
 ![cluster2 means](/assets/img/cluster2_means.JPG)
 
-Looking at cluster 2, the songs are higher positivity, higher acoustics, and groovy(for a lack of a better work), therefore, I'll identify this playlist cluster as "rnb and hip hop"
+Looking at cluster 2, the songs are higher positivity, higher acoustics, and groovy(for a lack of a better word). These are the type of songs where I'd want to jam to at night because of the lower energy level without any negative vibes. Therefore, I'll identify this playlist cluster as "rnb and hip hop"
 
 #### Cluster 3
 1. SZA - Love Galore (**Pop**)
@@ -105,3 +108,8 @@ Looking at cluster 2, the songs are higher positivity, higher acoustics, and gro
 5. keshi - like i need u (**Indie r&b**)
 
 ![cluster3 means](/assets/img/cluster3_means.JPG)
+
+Within Cluster 3, there is a low valence level, however, it seems to be more of a mix of love songs with a more energetic, upbeat rhythm. Some of the songs within the cluser aren't about love at all though. The songs within the cluster are songs I'd listen to on a late night drive, therefore, I'll identify the playlist cluster as that: "late night drives."
+
+### Conclusion
+This project was a fun way to explore my Spotify playlist data and learn more about my musical taste. With musical evaluation, there's always the problem of human subjectivity to what emotions and feelings a song can create. Despite this, I think slowly begin to understand these feelings on a wider scale after understanding each unique listener’s taste. Using K-Means clustering, there were many songs in the clustered playlists that I would have put in their own playlists. For example, many lofi songs showed up in clusters 0 and 3, though I would have a separate playlist for them simply for it's genre. If done again, I may have created clusters for my individual playlists by the genre in order to see the clusters within that certain genre.
