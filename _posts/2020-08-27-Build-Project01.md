@@ -108,6 +108,10 @@ Looking at cluster 2, the songs are higher positivity, higher acoustics, and gro
 Within Cluster 3, there is a low valence level, however, it seems to be more of a mix of love songs with a more energetic, upbeat rhythm. Some of the songs within the cluser aren't about love at all though. The songs within the cluster are songs I'd listen to on a late night drive, therefore, I'll identify the playlist cluster as that: "late night drives."
 
 ### Conclusion
-This project was a fun way to explore my Spotify playlist data and learn more about my musical taste. With musical evaluation, there's always the problem of human subjectivity to what emotions and feelings a song can create. Despite this, I think slowly begin to understand these feelings on a wider scale after understanding each unique listener’s taste. Using K-Means clustering, there were many songs in the clustered playlists that I would have put in their own playlists. For example, many lofi songs showed up in clusters 0 and 3, though I would have a separate playlist for them simply for it's genre. If done again, I may have created clusters for my individual playlists by the genre in order to see the clusters within that certain genre. Thank you for reading this article and I hope you’ve learned something new(and found some new music)!
+This project was a fun way to explore my Spotify playlist data and learn more about my musical taste. With musical evaluation, there's always the problem of human subjectivity to what emotions and feelings a song can create. Despite this, I think we can slowly begin to understand these feelings on a wider scale after understanding each unique listener’s taste. 
+
+Using K-Means clustering, there were many songs in the clustered playlists that I would have put in their own playlists. For example, many lofi songs showed up in clusters 0 and 3, though I would have a separate playlist for them simply for it's genre. If done again, I may have created clusters for my individual playlists by the genre in order to see the clusters within that certain genre. 
+
+Thank you for reading and I hope you learned something new (and/or found new music)!
 
 The code used for this project can be found [here](https://github.com/raymond98tan/raymond98tan.github.io/blob/master/Raymond_Tan_Build_Project_1.ipynb)!
