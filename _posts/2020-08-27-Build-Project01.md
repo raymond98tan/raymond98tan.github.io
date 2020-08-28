@@ -65,11 +65,11 @@ In contrast, clusters 1 and 2 have high valences(.65 and .61), or high positivit
 The energy levels of the clusters go from .3, .4, .5, and .6(not in the respective order of the clustering), which raises suspicion that that may be an area of how they are clustered.
 
 #### Cluster 0
-1. Frank Ocean - Nikes (Alt r&b)
-2. Daniel Caesar - Who Hurt You? (Contemporary r&b)
-3. Phora - Faithful (Deep pop r&b)
-4. Khai - Do you go up
-5. Pink Sweat$ - Honesty (Alt r&b)
+1. Frank Ocean - Nikes (**Alt r&b**)
+2. Daniel Caesar - Who Hurt You? (**Contemporary r&b**)
+3. Phora - Faithful (**Deep Pop r&b**)
+4. Khai - Do you go up (**Un-Genred**)
+5. Pink Sweat$ - Honesty (**Alt r&b**)
 
 Taking a look at the songs within the clusters, cluster 0's songs are a lot slower, less energetic, and has high acoustics. Some of the songs from my lofi playlist ended up in this cluster as well. Therefore, I'll identify this playlist cluster as "Chill."
 
@@ -94,6 +94,6 @@ Looking at cluster 2, the songs are higher positivity, higher acoustics, and gro
 #### Cluster 3
 1. SZA - Love Galore (**Pop**)
 2. XXXTENTACION - Save Me (**Emo rap**)
-3. Tyler, The Creator - EARFQUAKE (**Hip hop**)
+3. Tyler, The Creator - EARFQUAKE (**Hip Hop**)
 4. Yo Trane - Moonlight (**Alt r&b**)
 5. keshi - like i need u (**Indie r&b**)
