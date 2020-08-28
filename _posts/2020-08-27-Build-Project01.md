@@ -20,10 +20,8 @@ The variables I used to detect mood were:
 *   **nrgy**: Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy.
 *   **dnce**: Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable.
 *   **dB**: The overall loudness of a track in decibels (dB). Loudness values are averaged across the entire track and are useful for comparing relative loudness of tracks. Loudness is the quality of a sound that is the primary psychological correlate of physical strength (amplitude). Values typical range between -60 and 0 db.
-*   **live**: Detects the presence of an audience in the recording. Higher liveness values represent an increased probability that the track was performed live. A value above 0.8 provides strong likelihood that the track is live.
 *   **val**: A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).
 *   **acous**:  A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic.
-*   **spch**: 	Speechiness detects the presence of spoken words in a track. The more exclusively speech-like the recording (e.g. talk show, audio book, poetry), the closer to 1.0 the attribute value. Values above 0.66 describe tracks that are probably made entirely of spoken words. Values between 0.33 and 0.66 describe tracks that may contain both music and speech, either in sections or layered, including such cases as rap music. Values below 0.33 most likely represent music and other non-speech-like tracks.
 
 These definitions were taken from the [Spotipy API](https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/) which organizeyourmustic uses to gather song data.
 
@@ -57,13 +55,13 @@ Thankfully, we can use dimensionality reduction techniques to reduce the dimensi
 ### Interpreting the Clusters
 To better interpret the differences within the clusters, I created a bar plot of the means of each variable for each cluster:
 
-![cluster_means](/assets/img/cluster_means.png){: .mx-auto.d-block :}
+![cluster_means](/assets/img/cluster_means2.png){: .mx-auto.d-block :}
 ![cluster summaries](/assets/img/cluster_summaries.JPG){: .mx-auto.d-block :}
 
-Looking at the graph, we see that clusters 0 and 2 both have low valence, or low positivity in the songs. They're very similar in their summary statistics, however, cluster 0 is slightly more energetic and slightly louder. The main difference between cluster 0 and cluster 2 though, is that cluster 0 has little acoustics, whereas cluster 2 has high acoustics.
+Looking at the graph, we see that clusters 0 and 3 both have low valences(.24 and .28 respectively), or low positivity in the songs. Cluster 0 has the highest acoustics at 0.72. Cluster 3 has .2 more energy and slightly higher dancability as well as loudness.
 
-In contrast, clusters 1 and 3 have high valences, or high positivity. However, cluster 3 has .24 more energy(.41 vs .65) and low acoustics(.15).
+In contrast, clusters 1 and 2 have high valences(.65 and .61), or high positivity. Cluster 1 has the lowest acoustics but the highest levels for every other feature. Cluster 2 has high acoustics at 0.64.
 
-All of the clusters seem to have relatively similar levels of liveness and speechiness.
+The energy levels of the clusters go from .3, .4, .5, and .6(not in the respective order of the clustering), which raises suspicion that that may be an area of how they are clustered.
 
 Taking a look at the songs within the clusters, 
