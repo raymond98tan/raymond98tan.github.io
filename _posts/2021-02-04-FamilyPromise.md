@@ -8,7 +8,7 @@ share-img: /assets/img/path.jpg
 tags: [project]
 ---
 
-Family Promise Spokane is a non-profit organization tackling the growing incidence of family homelessness in the Spokane, Washington area in an effort to provide resources to those in danger of not having their basic physiological needs met. Family Promise Spokane addresses family homelessness through every stage from prevention(rental assistance, transportation), shelter(hospitality and case management), to stabilization(housing, financial capability, career pathways). 
+Family Promise Spokane is a non-profit organization tackling the growing incidence of family homelessness in the Spokane, Washington area in an effort to provide resources to those in danger of not having their most basic living needs met. Family Promise Spokane addresses family homelessness through every stage from prevention(rental assistance, transportation), shelter(hospitality and case management), to stabilization(housing, financial capability, career pathways). 
 
 ![Resources](/assets/img/Prevention_shelter_stabilization-1.jpg)
 
