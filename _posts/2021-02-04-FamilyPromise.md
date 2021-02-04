@@ -10,7 +10,7 @@ tags: [project]
 
 Family Promise Spokane is a non-profit organization tackling the growing incidence of family homelessness in the Spokane, Washington area in an effort to provide resources to those in danger of not having their basic physiological needs met. Family Promise Spokane addresses family homelessness through every stage from prevention(rental assistance, transportation), shelter(hospitality and case management), to stabilization(housing, financial capability, career pathways). 
 
-![Resources](/assets/img/Prevention-shelter-stabilization-1.JPG)
+![Resources](/assets/img/Prevention_shelter_stabilization-1.jpg)
 
 As Family Promise Spokane has grown over the years to meet the needs of guests, their outdated intake forms and resource managements have struggled to keep up with the shelter's growth. To fight against the time-consuming labor requirements and insensitivity to the stresses a written intake form puts on new guests, my team has worked to develop a digital intake solution to address the out of date system currently in place, as well as a dashboard management system. 
 
