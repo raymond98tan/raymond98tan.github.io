@@ -31,6 +31,8 @@ By the end of the month, we were able to improve upon the previous model's 70% a
 
 ![Shapley API Code](/assets/img/shapcode1.jpg)
 
+This was the code used in the API to generate the shapley plot visualization. It was used along side a function which passes in the guest's information and converts the generated plotly into a json to be displayed on the front end. The function first takes the row of the guest that is passed in and predicts their exit classification using the pickled catboost model. TreeExplainer is then used on the model to compute its shap values, getting rid of all sampling-based estimation variance and no longer skewing results due to dependencies between features. We then store the feature names and values for the guest in a sorted series. This information is then used to generate the actual data on the plotly.
+
 ![Shapley Visualization](/assets/img/Shap.jpg)
 
 On the web dev side of things, they were able to build the intake forms and dashboards, along with many of the gritty details necessary for smooth use of the product. The team made a ton of progress on the project this month, but we still have ways to go from a final product that can be beta tested. Moving forward, we are leaving the next Data Science team with the tasks of deploying the new model onto AWS as we ran into docker conflicts that weren’t able to be fixed in time and actually deploying the shapley plots so the front end can display them for additional interpretability.
