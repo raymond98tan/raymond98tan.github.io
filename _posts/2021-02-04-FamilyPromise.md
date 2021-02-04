@@ -16,7 +16,7 @@ As Family Promise of Spokane has grown over the years to meet the needs of guest
 
 ![Washington Homelessness](/assets/img/Washington_Homelessness_Stat.JPG)
 
-Not only were we providing case managers and supervisors the ability to process guests more efficiently, but also to implement machine learning into this system to help Case Managers better distribute resources to families. Specifically, we would build a machine learning application to predict the exit destination a familiy is most likely to enter into after transitioning from Family Promise of Spokane. Entering into the project as an API builder and data analyst, I was tasked with working alongside my team to generate interpretable data visualizations from the model showcasing the reasoning behind why a family is predicted to exit where classified.
+Not only were we providing case managers and supervisors the ability to process guests more efficiently, but also to implement machine learning into this system to help Case Managers better distribute resources to families. Specifically, we would build a machine learning application to predict the exit destination a family is most likely to enter into after transitioning from Family Promise of Spokane. Entering into the project as an API builder and data analyst, I was tasked with working alongside my team to generate interpretable data visualizations from the model showcasing the reasoning behind why a family is predicted to exit where classified.
 
 
 ### Taking a step back to revisit the big picture
@@ -31,7 +31,7 @@ By the end of the month, we were able to improve upon the previous model's 70% a
 
 ![Shapley API Code](/assets/img/shapcode1.jpg)
 
-This was the code used in the API to generate the shapley plot visualization. It was used along side a function which passes in the guest's information and converts the generated plotly into a json to be displayed on the front end. The function first takes the row of the guest that is passed in and predicts their exit classification using the pickled catboost model. TreeExplainer is then used on the model to compute its shap values, getting rid of all sampling-based estimation variance and no longer skewing results due to dependencies between features. We then store the feature names and values for the guest in a sorted series. This information is then used as the data shown on the plotly. Originally we displayed the visualizations using pyplot but we converted it to plotly so that we could more easily retrieve the json for the front end.
+This was the code used in the API to generate the shapley plot visualization. It was used alongside a function which passes in the guest's information and converts the generated plotly into a json to be displayed on the front end. The function first takes the row of the guest that is passed in and predicts their exit classification using the pickled catboost model. TreeExplainer is then used on the model to compute its shap values, getting rid of all sampling-based estimation variance and no longer skewing results due to dependencies between features. We then store the feature names and values for the guest in a sorted series. This information is then used as the data shown on the plotly. Originally we displayed the visualizations using pyplot but we converted it to plotly so that we could more easily retrieve the json for the front end.
 
 ![Shapley Visualization](/assets/img/Shap.jpg)
 
