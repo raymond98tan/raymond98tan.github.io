@@ -31,7 +31,7 @@ By the end of the month, we were able to improve upon the previous model's 70% a
 
 ![Shapley API Code](/assets/img/shapcode1.jpg)
 
-This was the code used in the API to generate the shapley plot visualization. It was used along side a function which passes in the guest's information and converts the generated plotly into a json to be displayed on the front end. The function first takes the row of the guest that is passed in and predicts their exit classification using the pickled catboost model. TreeExplainer is then used on the model to compute its shap values, getting rid of all sampling-based estimation variance and no longer skewing results due to dependencies between features. We then store the feature names and values for the guest in a sorted series. This information is then used to generate the actual data on the plotly.
+This was the code used in the API to generate the shapley plot visualization. It was used along side a function which passes in the guest's information and converts the generated plotly into a json to be displayed on the front end. The function first takes the row of the guest that is passed in and predicts their exit classification using the pickled catboost model. TreeExplainer is then used on the model to compute its shap values, getting rid of all sampling-based estimation variance and no longer skewing results due to dependencies between features. We then store the feature names and values for the guest in a sorted series. This information is then used as the data shown on the plotly. Originally we displayed the visualizations using pyplot but we converted it to plotly so that we could more easily retrieve the json for the front end.
 
 ![Shapley Visualization](/assets/img/Shap.jpg)
 
