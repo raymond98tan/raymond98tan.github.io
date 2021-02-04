@@ -28,7 +28,7 @@ Implementing the code in the API, we ran into many challenges. We first discusse
 ### My End, Another's Beginning
 By the end of the month, we were able to improve upon the previous model's 70% accuracy to 75% accuracy using catboost. We built features into the database so that we could use our new model. We drew shapley plot visualizations detailing feature importances toward each exit classification. Improving the model and getting the visualizations working was a huge step this month, as it will allow for Case Managers to better distinguish which guests need more attention and identify the resources that may be most beneficial for them. 
 
-![Shapley Visualization(Colab crashing - Ask Trevor)](/assets/img/Shap.jpg)
+![Shapley Visualization](/assets/img/Shap.jpg)
 
 On the web dev side of things, they were able to build the intake forms and dashboards, along with many of the gritty details necessary for smooth use of the product. The team made a ton of progress on the project this month, but we still have ways to go from a final product that can be beta tested. Moving forward, we are leaving the next Data Science team with the tasks of deploying the new model onto AWS as we ran into docker conflicts that weren't able to be fixed in time and actually deploying the shapley plots so front end can display them for additional interpretability.
 
